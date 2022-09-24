@@ -12,7 +12,7 @@ export function Header() {
       </Link>
       <div>
         <Link href={"/tracklist"}>Tracklist</Link>
-        <Link href={"/products"}>Products</Link>
+        <Link href={"/"}>Products</Link>
         <button>
           <Handbag size={20} />
         </button>

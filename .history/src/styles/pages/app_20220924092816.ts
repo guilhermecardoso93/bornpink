@@ -53,7 +53,7 @@ export const HeaderContainer = styled("header", {
 export const HomeContainer = styled('main', {
   display: "flex",
   flexDirection: "column",
-  alignItems: "center",
+  alignItems: "flex-end",
   justifyContent: "center",
   marginTop:'10rem'
 })

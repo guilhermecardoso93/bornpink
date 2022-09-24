@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Handbag } from "phosphor-react";
-import Logo from "../assets/logo3.png";
+import Logo from "../assets/logo4.png";
 import { HeaderContainer } from "../styles/pages/app";
 
 export function Header() {
@@ -12,7 +12,7 @@ export function Header() {
       </Link>
       <div>
         <Link href={"/tracklist"}>Tracklist</Link>
-        <Link href={"/products"}>Products</Link>
+        <Link href={"/"}>Products</Link>
         <button>
           <Handbag size={20} />
         </button>
